@@ -14,6 +14,9 @@ Self-hosting, single-board computers and open source, built in the open.
   to a release as Debian packages; the AIC8800 WLAN/BT driver is not part of
   them, the image builds it. On a board running that image,
   `sudo a7s-kernel-update` installs the newest release.
+- **[a7s-linux-mainline](https://github.com/DockSeed/a7s-linux-mainline)**:
+  the A733 patches on mainline Linux 7.3, for those who want to try a newer
+  kernel on a running system. Built with one `./build.sh`; no releases.
 - **[a733-bootchain](https://github.com/DockSeed/a733-bootchain)**: the boot
   chain of that image: U-Boot SPL, TF-A BL31 and U-Boot, built from source with
   one `./build.sh`. The vendor DRAM blob is fetched at build time and checked
