@@ -2,6 +2,8 @@
 
 Self-hosting, single-board computers and open source, built in the open.
 
+Unofficial; not affiliated with or authorized by Radxa, Allwinner or Debian.
+
 ## Projects
 
 - **[a7s-build](https://github.com/DockSeed/a7s-build)**: build your own
